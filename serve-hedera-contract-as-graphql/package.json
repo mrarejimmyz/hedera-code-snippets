@@ -1,0 +1,17 @@
+{
+  "name": "serve-hedera-contract-as-graphql",
+  "version": "0.1.0",
+  "description": "Serve any Hedera contract as a standardized GraphQL / subgraph endpoint via Mirror Node. The Graph doesn't index Hedera — this snippet bridges the gap.",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "graphql": "^16.9.0"
+  }
+}
